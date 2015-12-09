@@ -1,0 +1,14 @@
+{
+  "name": "portfolio_site",
+  "version": "1.0.0",
+  "description": "Portfolio site for Ben Upham",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ben Upham",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0"
+  }
+}
