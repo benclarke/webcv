@@ -99,6 +99,12 @@ textarea:focus,
 	-ms-transition:     all 0.2s ease-in-out;
 	-o-transition:      all 0.2s ease-in-out;
 	transition:         all 0.2s ease-in-out;
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: #323a45;
 }
 
 ::-moz-selection {
@@ -278,6 +284,20 @@ img {
 		transform:rotate(180deg);
 }
 
+.portfolio-footer {
+    width: 100%;
+    background-color: #AEB0B5;
+    color: #5B616B;
+    padding: 5px 0;
+    font-size: 14px;
+    /* position: absolute; */
+    bottom: 80px;
+}
+
+.portfolio-footer .content {
+	padding-bottom: 0;
+}
+
 
 /*
 Media Queries
@@ -347,5 +367,11 @@ Media Queries
 		padding: 0 5%;
 	}
 
+	.portfolio-footer {
+		font-size: 12px;
+	}
+
 }
+
+
 

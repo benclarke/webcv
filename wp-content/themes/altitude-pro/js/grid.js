@@ -197,7 +197,6 @@ var Grid = (function() {
 			minHeight : 300,
 			speed : 350,
 			easing : 'ease',
-			standardHeight : 200
 		};
 
 	function init( config ) {
@@ -303,19 +302,19 @@ var Grid = (function() {
 		if( typeof preview != 'undefined' ) {
 
 			// not in the same row
-			// if( previewPos !== position ) {
+			if( previewPos !== position ) {
 				// if position > previewPos then we need to take te current preview´s height in consideration when scrolling the window
 				if( position > previewPos ) {
 					scrollExtra = preview.height;
 				}
 
 				hidePreview();
-			// }
-			// same row ** DEACTIVATED so resizes even when new item is on same row
-			// else {
-			// 	preview.update( $item );
-			// 	return false;
-			// }
+			}
+			// same row
+			else {
+				preview.update( $item );
+				return false;
+			}
 
 		}
 
@@ -388,6 +387,15 @@ var Grid = (function() {
 			if( current !== -1 ) {
 				var $currentItem = $items.eq( current );
 				$currentItem.removeClass( 'og-expanded' );
+				this.$item.addClass( 'og-expanded' );
+				this.height = this.$description.outerHeight(true) + this.$title.outerHeight(true);
+				this.itemHeight = this.height + this.$item.data('height');
+
+				// the first item expanded on this row adjusts its height
+				$items.eq(this.expandedIdx).css('height', this.itemHeight);
+
+				this.$previewEl.css('height', this.height);
+
 				// position the preview correctly
 				this.positionPreview();
 			}
@@ -429,7 +437,6 @@ var Grid = (function() {
 
 		},
 		close : function() {
-
 			var self = this,
 				onEndFn = function() {
 					if( support ) {
@@ -448,7 +455,6 @@ var Grid = (function() {
 				// the current expanded item (might be different from this.$item)
 				var $expandedItem = $items.eq( this.expandedIdx );
 				$expandedItem.css( 'height', $expandedItem.data( 'height' ) ).on( transEndEventName, onEndFn );
-
 				if( !support ) {
 					onEndFn.call();
 				}
@@ -461,14 +467,16 @@ var Grid = (function() {
 		calcHeight : function() {
 			var heightPreview = this.$item.find('.portfolio-text').outerHeight(true) + this.$item.find('h3').outerHeight(true);
 			var	itemHeight = heightPreview + this.$item.data( 'height' );
-			console.log('preview height: ' + heightPreview);
 			if( heightPreview < settings.minHeight ) {
 				heightPreview = settings.minHeight;
 				itemHeight = settings.minHeight + this.$item.data( 'height' ) + marginExpanded;
 			}
 
 			this.height = heightPreview;
+			console.log('preview height: ' + heightPreview);
+
 			this.itemHeight = itemHeight;
+			console.log('item height: ' + itemHeight);
 
 		},
 		setHeights : function() {

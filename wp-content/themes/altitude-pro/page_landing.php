@@ -73,9 +73,11 @@ add_action( 'genesis_loop', 'ben_portfolio_header' );
 add_action( 'genesis_loop', 'ben_portfolio_widget' );
 
 //* Add the header again after the grid widget, and turn it upside down
-add_action( 'genesis_after_loop', 'ben_portfolio_header_reversed' );
+// add_action( 'genesis_after_loop', 'ben_portfolio_header_reversed' );
 
-// add_action('genesis_before', 'ben_portfolio_bg');
+// Add footer
+add_action('genesis_footer', 'ben_portfolio_footer');
+
 
 function ben_portfolio_bg() {
 	echo '<div class="bg-text">google analytics wordpress plugins mailchimp onclick events social media marketing ninjas
@@ -92,10 +94,11 @@ function ben_portfolio_header() {
 	echo '<p class="portfolio-header">
 	<em class="dark">...I’d like to explain:</em> YOU HAVE TO BE CRAZY to keep up with the digital flood, so we must all be crazy.
 	That&#x02019;s ok. <em class="dark" >I&#x02019;m having fun.</em> What about you?
-	<span class="dark bold">How can I be of service?</span> I code. I design. I manage digital properties, products and campaigns.
-	I tell stories in many mediums. Some true.
 	<span class="dark ultrabolditalic">I solve problems with web technology.</span>
-	You can email me at <span class="dark bolditalic">BEN@BENUPHAM.COM</span>.
+	I manage digital properties, products and campaigns.	I build with code. I design with the user in mind.
+	I tell stories in many mediums. Some true. <span class="dark bold">How can I be of service?</span>
+	You can email me at <a href="mailto:ben@benupham.com" class="dark bolditalic">BEN@&shy;BENUPHAM&shy;.COM</a>
+	and link me in at <a href="http://www.linkedin.com/in/benupham" target="_blank" class="dark bolditalic">in/benupham</a>.
 	</p>';
 }
 
@@ -114,7 +117,12 @@ function ben_portfolio_widget() {
 	echo '<ul id="og-grid" class="og-grid">';
 
 
-	$args = array('post_type' => 'portfolio', 'posts_per_page' => 999);
+	$args = array('post_type' => 'portfolio',
+								'posts_per_page' => 999,
+								'order' => 'ASC',
+								'orderby' => 'meta_value_num',
+								'meta_key' => 'portfolio_order'
+								);
 	$loop = new WP_Query($args);
 	while ($loop->have_posts()) : $loop->the_post();
 
@@ -129,6 +137,7 @@ function ben_portfolio_widget() {
 
 		$content = get_the_content();
 		$externallink = $my_portfolio_meta['weburl'];
+		$portfolio_teaser = $my_portfolio_meta['portfolio_teaser'];
 		$title = get_the_title();
 
 		echo
@@ -142,8 +151,13 @@ function ben_portfolio_widget() {
 		//Add the external url, if any (grid.js handles empties)
 		'" href="' . $externallink .'" target="new" >';	//end opening anchor
 		the_post_thumbnail('portfolio_image_thumb');
-		echo '<div class="portfolio-teaser"><div class="caption regular">' . $title . '</div></div>' .
-		'</a>'; //end closing anchor
+		echo '<div class="portfolio-teaser"><div class="caption regular">';
+		if (!empty($portfolio_teaser)) {
+			echo $portfolio_teaser[0];
+			} else {
+				echo $title;
+			}
+		echo '</div></div></a>'; //end closing anchor
 
 	echo  '</li>';
 	endwhile;
@@ -154,6 +168,11 @@ function ben_portfolio_widget() {
 <?php
 }
 
+function ben_portfolio_footer() {
+	echo '<div class="portfolio-footer"><div class="wrap"><div class="content">
+	Built with WordPress Genesis framework. Styles inspired by <a href="https://playbook.cio.gov/designstandards/" target="_blank">the United States government</a>.
+	</div></div>';
+}
 
 
 //* Run the Genesis loop
