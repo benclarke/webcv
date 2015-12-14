@@ -185,6 +185,13 @@ h1.portfolio-title {
     font-size: 72px;
 }
 
+h3.work-stories {
+	color: $light-gray;
+	margin: 0;
+	font-family: merriweatheritalic, serif;
+}
+
+
 .portfolio-header {
 		font-size: 24px;
 		color: $light-gray;
@@ -273,13 +280,17 @@ img.portfolio-image {
 		width: 100%;
 	}
 
+	h3.work-stories {
+		display: block;
+	}
+
 }
 
 @media only screen and (max-width: 500px) {
 	body {
 		font-size: 16px;
 	}
-	.altitude-landing .site-container .site-inner {
+	.site-container .site-inner {
 		margin-top: 25px;
 	}
 
@@ -306,7 +317,7 @@ img.portfolio-image {
 
 	.og-grid .portfolio-teaser {
 		opacity: 1;
-    width: 160px;
+    width: 150%;
     margin-left: 110%;
     color: #5B616B;
     border-radius: 0;

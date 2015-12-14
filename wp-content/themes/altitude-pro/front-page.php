@@ -93,9 +93,10 @@ function ben_portfolio_header() {
 	<span class="dark ultrabolditalic">I solve problems with web technology.</span>
 	I manage digital properties, products and campaigns.	I build with code. I design with the user in mind.
 	I tell stories in many mediums. Some true. <span class="dark bold">How can I be of service?</span>
-	You can email me at <a href="mailto:ben@benupham.com" class="dark bolditalic">BEN@&shy;BENUPHAM&shy;.COM</a>
+	You can email me at <a href="mailto:bcupham@gmail.com" class="dark bolditalic">BCUPHAM@&shy;GMAIL&shy;.COM</a>
 	and link me in at <a href="http://www.linkedin.com/in/benupham" target="_blank" class="dark bolditalic">in/benupham</a>.
 	</p>';
+	echo '<h3 class="work-stories">WORK STORIES</h3>';
 }
 
 function ben_portfolio_header_reversed() {
