@@ -1,0 +1,366 @@
+/****
+	Theme Name: BU Portfolio, based on Altitude, for no good reason except it was lying around.
+	Theme URI: http://my.studiopress.com/themes/altitude/
+	Description: Show    stuff   on   the    web    .
+	Author: me
+	Author URI: http://www.benupham.com/
+
+	Version: 1.0.2
+
+	Template: genesis
+	Template Version: 2.1
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/* START IMPORTS
+-------------------------- */
+
+@import 'normalizeold';
+@import 'globals';
+@import 'fontfaces';
+@import 'grid';
+
+
+/* START BASE STYLES
+-------------------------- */
+
+
+/* Float Clearing
+--------------------------------------------- */
+
+.author-box:before,
+.clearfix:before,
+.entry:before,
+.entry-content:before,
+.pagination:before,
+.site-container:before,
+.site-footer:before,
+.site-header:before,
+.site-inner:before,
+.widget:before,
+.wrap:before {
+	content: " ";
+	display: table;
+}
+
+.author-box:after,
+.clearfix:after,
+.entry:after,
+.entry-content:after,
+.pagination:after,
+.site-container:after,
+.site-footer:after,
+.site-header:after,
+.site-inner:after,
+.widget:after,
+.wrap:after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+
+
+/*
+Defaults
+---------------------------------------------------------------------------------------------------- */
+
+/* Typographical Elements
+--------------------------------------------- */
+
+body {
+	background-color: #fff;
+	color: $primary-gray;
+	font-family: $primary-font;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+a,
+input:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea:focus,
+.button,
+.site-header.dark {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition:    all 0.2s ease-in-out;
+	-ms-transition:     all 0.2s ease-in-out;
+	-o-transition:      all 0.2s ease-in-out;
+	transition:         all 0.2s ease-in-out;
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: $dark-gray;
+}
+
+::-moz-selection {
+	background-color: #000;
+	color: #fff;
+}
+
+::selection {
+	background-color: #000;
+	color: #fff;
+}
+
+p {
+	margin: 0 0 30px;
+	padding: 0;
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+b,
+strong,
+.bold {
+	font-weight: 800;
+	font-family: "merriweatherbold", serif;
+}
+
+cite,
+em,
+i,
+.italic {
+	font-family: merriweatheritalic;
+}
+
+.dark {
+	color: $primary-gray;
+}
+.light {
+	color: $light-gray;
+}
+.thin {
+	font-family: merriweather_lightregular, serif;
+}
+.thinitalic {
+	font-family: merriweatherlight_italic, serif;
+}
+.regular {
+	font-family: merriweatherregular, serif;
+}
+.bolditalic {
+	font-family: merriweatherbold_italic, serif;
+}
+.ultrabold {
+	font-family: merriweather_ultraboldregular, serif;
+}
+.ultrabolditalic {
+	font-family: merriweatherultrabold_italic, serif;
+}
+
+/* Headings
+--------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "merriweatherbold", sans-serif;
+	font-weight: 200;
+	line-height: 1.2;
+	margin: 0 0 20px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+/* Objects
+--------------------------------------------- */
+
+embed,
+iframe,
+img,
+object,
+video,
+.wp-caption {
+	max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+/* Site Containers
+--------------------------------------------- */
+
+.site-inner,
+.wrap {
+	float: none;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.site-inner {
+	background-color: #fff;
+	clear: both;
+	margin-top: 170px;
+	position: relative;
+	z-index: 9;
+	word-wrap: break-word;
+}
+
+.site-container .site-inner {
+	margin-top: 25px;
+	background: #fff;
+}
+
+/* Content
+--------------------------------------------- */
+
+.content {
+	float: left;
+	width: 700px;
+}
+
+.page .content {
+	padding-bottom: 50px;
+}
+
+.sidebar-content .content {
+	float: right;
+}
+
+.full-width-content .content {
+	padding: 0 180px 50px;
+	width: 100%;
+}
+
+.full-width-content.front-page .content {
+	padding: 0;
+}
+
+.reversed  {
+		transform:rotate(180deg);
+}
+
+.portfolio-footer {
+    width: 100%;
+    background-color: $light-gray;
+    color: $primary-gray;
+    padding: 5px 0;
+    font-size: 14px;
+    /* position: absolute; */
+    bottom: 80px;
+}
+
+.portfolio-footer .content {
+	padding-bottom: 0;
+}
+
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1280px) {
+
+	.site-inner,
+	.wrap {
+		max-width: 1140px;
+	}
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+	.site-inner,
+	.wrap {
+		max-width: 960px;
+	}
+
+	.site-header .widget-area {
+		width: 580px;
+	}
+
+	.content {
+		width: 520px;
+	}
+
+	.full-width-content .content {
+		padding: 0 110px;
+	}
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+	.site-inner,
+	.wrap {
+		max-width: 768px;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.site-inner {
+		margin-top: 80px;
+	}
+
+	.full-width-content .content {
+		padding: 0;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.site-inner,
+	.wrap {
+		max-width: none;
+		width: 100%;
+	}
+
+	.site-inner,
+	.wrap {
+		padding: 0 5%;
+	}
+
+	.portfolio-footer {
+		font-size: 12px;
+	}
+
+}
+
+
+

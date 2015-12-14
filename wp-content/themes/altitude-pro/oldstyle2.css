@@ -1,0 +1,377 @@
+/****
+	Theme Name: BU Portfolio, based on Altitude, for no good reason except it was lying around.
+	Theme URI: http://my.studiopress.com/themes/altitude/
+	Description: Show    stuff   on   the    web    .
+	Author: me
+	Author URI: http://www.benupham.com/
+
+	Version: 1.0.2
+
+	Template: genesis
+	Template Version: 2.1
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+*/
+
+/*
+HTML5 Reset
+---------------------------------------------------------------------------------------------------- */
+
+/* Baseline Normalize
+	normalize.css v2.1.3 | MIT License | git.io/normalize
+--------------------------------------------- */
+
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background:transparent}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:0}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}table{border-collapse:collapse;border-spacing:0}
+
+/* Box Sizing
+--------------------------------------------- */
+
+*,
+input[type="search"] {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+}
+
+/* Float Clearing
+--------------------------------------------- */
+
+.author-box:before,
+.clearfix:before,
+.entry:before,
+.entry-content:before,
+.pagination:before,
+.site-container:before,
+.site-footer:before,
+.site-header:before,
+.site-inner:before,
+.widget:before,
+.wrap:before {
+	content: " ";
+	display: table;
+}
+
+.author-box:after,
+.clearfix:after,
+.entry:after,
+.entry-content:after,
+.pagination:after,
+.site-container:after,
+.site-footer:after,
+.site-header:after,
+.site-inner:after,
+.widget:after,
+.wrap:after {
+	clear: both;
+	content: " ";
+	display: table;
+}
+
+
+/*
+Defaults
+---------------------------------------------------------------------------------------------------- */
+
+/* Typographical Elements
+--------------------------------------------- */
+
+body {
+	background-color: #fff;
+	color: #5b616b;
+	font-family: "merriweather_lightregular", sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+a,
+input:focus,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+textarea:focus,
+.button,
+.site-header.dark {
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition:    all 0.2s ease-in-out;
+	-ms-transition:     all 0.2s ease-in-out;
+	-o-transition:      all 0.2s ease-in-out;
+	transition:         all 0.2s ease-in-out;
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	color: #323a45;
+}
+
+::-moz-selection {
+	background-color: #000;
+	color: #fff;
+}
+
+::selection {
+	background-color: #000;
+	color: #fff;
+}
+
+p {
+	margin: 0 0 30px;
+	padding: 0;
+}
+
+ol,
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+b,
+strong,
+.bold {
+	font-weight: 800;
+	font-family: "merriweatherbold", serif;
+}
+
+cite,
+em,
+i,
+.italic {
+	font-family: merriweatheritalic;
+}
+
+.dark {
+	color: #5b616b;
+}
+.light {
+	color: #aeb0b5;
+}
+.thin {
+	font-family: merriweather_lightregular, serif;
+}
+.thinitalic {
+	font-family: merriweatherlight_italic, serif;
+}
+.regular {
+	font-family: merriweatherregular, serif;
+}
+.bolditalic {
+	font-family: merriweatherbold_italic, serif;
+}
+.ultrabold {
+	font-family: merriweather_ultraboldregular, serif;
+}
+.ultrabolditalic {
+	font-family: merriweatherultrabold_italic, serif;
+}
+
+/* Headings
+--------------------------------------------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "merriweatherbold", sans-serif;
+	font-weight: 200;
+	line-height: 1.2;
+	margin: 0 0 20px;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 20px;
+}
+
+h6 {
+	font-size: 18px;
+}
+
+/* Objects
+--------------------------------------------- */
+
+embed,
+iframe,
+img,
+object,
+video,
+.wp-caption {
+	max-width: 100%;
+}
+
+img {
+	height: auto;
+}
+
+/* Site Containers
+--------------------------------------------- */
+
+.site-inner,
+.wrap {
+	float: none;
+	margin: 0 auto;
+	max-width: 1200px;
+}
+
+.site-inner {
+	background-color: #fff;
+	clear: both;
+	margin-top: 170px;
+	position: relative;
+	z-index: 9;
+	word-wrap: break-word;
+}
+
+.front-page .site-container .site-inner {
+	margin-top: 0;
+	max-width: 100%;
+}
+
+.altitude-landing .site-container .site-inner {
+	margin-top: 50px;
+	background: #fff;
+}
+
+/* Content
+--------------------------------------------- */
+
+.content {
+	float: left;
+	width: 700px;
+}
+
+.page .content {
+	padding-bottom: 50px;
+}
+
+.sidebar-content .content {
+	float: right;
+}
+
+.full-width-content .content {
+	padding: 0 180px 50px;
+	width: 100%;
+}
+
+.full-width-content.front-page .content {
+	padding: 0;
+}
+
+.reversed  {
+		transform:rotate(180deg);
+}
+
+.portfolio-footer {
+    width: 100%;
+    background-color: #AEB0B5;
+    color: #5B616B;
+    padding: 5px 0;
+    font-size: 14px;
+    /* position: absolute; */
+    bottom: 80px;
+}
+
+.portfolio-footer .content {
+	padding-bottom: 0;
+}
+
+
+/*
+Media Queries
+---------------------------------------------------------------------------------------------------- */
+
+@media only screen and (max-width: 1280px) {
+
+	.site-inner,
+	.wrap {
+		max-width: 1140px;
+	}
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+	.site-inner,
+	.wrap {
+		max-width: 960px;
+	}
+
+	.site-header .widget-area {
+		width: 580px;
+	}
+
+	.content {
+		width: 520px;
+	}
+
+	.full-width-content .content {
+		padding: 0 110px;
+	}
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+	.site-inner,
+	.wrap {
+		max-width: 768px;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.site-inner {
+		margin-top: 80px;
+	}
+
+	.full-width-content .content {
+		padding: 0;
+	}
+
+}
+
+@media only screen and (max-width: 800px) {
+
+	.site-inner,
+	.wrap {
+		max-width: none;
+		width: 100%;
+	}
+
+	.site-inner,
+	.wrap {
+		padding: 0 5%;
+	}
+
+	.portfolio-footer {
+		font-size: 12px;
+	}
+
+}
+
+
+

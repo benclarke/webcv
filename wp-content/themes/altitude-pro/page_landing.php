@@ -29,8 +29,8 @@ function ben_portfolio_scripts() {
 	wp_enqueue_script( 'localScroll', get_stylesheet_directory_uri() . '/js/jquery.localScroll.min.js', array( 'scrollTo' ), '1.2.8b', true );
 	wp_enqueue_script( 'scrollTo', get_stylesheet_directory_uri() . '/js/jquery.scrollTo.min.js', array( 'jquery' ), '1.4.5-beta', true );
 
-	wp_enqueue_style( 'portfolio-css-component', get_bloginfo( 'stylesheet_directory' ) . '/stylesheets/component.css' );
-	wp_enqueue_style( 'fontfaces', get_bloginfo( 'stylesheet_directory' ) . '/stylesheets/fontfaces/fontfaces.css' );
+	// wp_enqueue_style( 'fontfaces', get_bloginfo( 'stylesheet_directory' ) . '/stylesheets/fontfaces/fontfaces.css' );
+	// wp_enqueue_style( 'portfolio-css-component', get_bloginfo( 'stylesheet_directory' ) . '/stylesheets/component.css' );
 
 
 }
