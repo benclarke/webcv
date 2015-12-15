@@ -1,0 +1,1080 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"enem",
+				"enemySpeed"
+			],
+			[
+				"info",
+				"info-page"
+			],
+			[
+				"clie",
+				"clientX"
+			],
+			[
+				"R",
+				"RightWingNut"
+			],
+			[
+				"good",
+				"goodie-koch"
+			],
+			[
+				"goo",
+				"goodie-koch"
+			],
+			[
+				"nut",
+				"nutInterval"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"All",
+				"allPieces"
+			],
+			[
+				"board",
+				"boardPieceWidth"
+			],
+			[
+				"player",
+				"playerStartY"
+			],
+			[
+				"init",
+				"initialCash"
+			],
+			[
+				"statu",
+				"statusDisplay"
+			],
+			[
+				"fill",
+				"fillStyle"
+			],
+			[
+				"fil",
+				"fillText"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"stationary",
+				"StationaryEnemy"
+			],
+			[
+				"hand",
+				"handleInput"
+			],
+			[
+				"cli",
+				"clientX"
+			],
+			[
+				"ico",
+				"iconSize"
+			],
+			[
+				"han",
+				"handleInput"
+			],
+			[
+				"boar",
+				"boardPieceHeight"
+			],
+			[
+				"ini",
+				"initialOffsetY"
+			],
+			[
+				"up",
+				"update"
+			],
+			[
+				"gam",
+				"gameover"
+			],
+			[
+				"draw",
+				"drawImage"
+			],
+			[
+				"goodi",
+				"goodieType"
+			],
+			[
+				"dama",
+				"damage"
+			],
+			[
+				"ene",
+				"enemy-skeleton-black"
+			],
+			[
+				"en",
+				"enemy-gaffe"
+			],
+			[
+				"hit",
+				"hitSprite"
+			],
+			[
+				"ic",
+				"iconSize"
+			],
+			[
+				"cash",
+				"cashY"
+			],
+			[
+				"g",
+				"goodie"
+			],
+			[
+				"right",
+				"rightness"
+			],
+			[
+				"cl",
+				"clientY"
+			],
+			[
+				"ge",
+				"getElementById"
+			],
+			[
+				"ben",
+				"ben-carson"
+			],
+			[
+				"ted",
+				"ted-cruz"
+			],
+			[
+				"car",
+				"carly-fiorina"
+			],
+			[
+				"mar",
+				"marco-rubio"
+			],
+			[
+				"be",
+				"ben-carson"
+			],
+			[
+				"cle",
+				"clientX"
+			],
+			[
+				"tru",
+				"trump"
+			],
+			[
+				"in",
+				"indexOf"
+			],
+			[
+				"add",
+				"addedEnemies"
+			],
+			[
+				"added",
+				"addedEnemies"
+			],
+			[
+				"old",
+				"oldPosition"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"usc",
+				"usccs"
+			],
+			[
+				"piece",
+				"pieceIndex"
+			],
+			[
+				"offset",
+				"offsetY"
+			],
+			[
+				"off",
+				"offsetY"
+			],
+			[
+				"offse",
+				"offsetY"
+			],
+			[
+				"view",
+				"viewportHeight"
+			],
+			[
+				"b",
+				"boardPieceWidth"
+			],
+			[
+				"white",
+				"whitehouse"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"play",
+				"playerStartY"
+			],
+			[
+				"bil",
+				"billTime"
+			],
+			[
+				"gener",
+				"generalElection"
+			],
+			[
+				"moving",
+				"MovingEnemy"
+			],
+			[
+				"wh",
+				"whiteHouse"
+			],
+			[
+				"ap",
+				"appendChild"
+			],
+			[
+				"set",
+				"setAttribute"
+			],
+			[
+				"se",
+				"setAttribute"
+			],
+			[
+				"righ",
+				"rightWingNut"
+			],
+			[
+				"rig",
+				"rightWingNut"
+			],
+			[
+				"spee",
+				"speed"
+			],
+			[
+				"ske",
+				"skeletonsRed"
+			],
+			[
+				"skel",
+				"skeletonsRed"
+			],
+			[
+				"sk",
+				"skeletons"
+			],
+			[
+				"s",
+				"skeleton"
+			],
+			[
+				"cent",
+				"centerY"
+			],
+			[
+				"cen",
+				"centerX"
+			],
+			[
+				"sta",
+				"stationary"
+			],
+			[
+				"all",
+				"allPieces"
+			],
+			[
+				"skele",
+				"skeletonBlack"
+			],
+			[
+				"bou",
+				"boundaryY"
+			],
+			[
+				"bound",
+				"boundaryHeight"
+			],
+			[
+				"boun",
+				"boundaryWidth"
+			],
+			[
+				"bo",
+				"boundaryY"
+			],
+			[
+				"da",
+				"damageType"
+			],
+			[
+				"rand",
+				"randomPosition"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"boa",
+				"boardPieceHeight"
+			],
+			[
+				"speed",
+				"speedModifier"
+			],
+			[
+				"cal",
+				"calcSpeed"
+			],
+			[
+				"y",
+				"y"
+			],
+			[
+				"ca",
+				"calcSpeed"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"on",
+				"onReady"
+			],
+			[
+				"co",
+				"collision"
+			],
+			[
+				"trum",
+				"trumptime"
+			],
+			[
+				"dt",
+				"dt"
+			],
+			[
+				"En",
+				"Enemy"
+			],
+			[
+				"prot",
+				"prototype"
+			],
+			[
+				"start",
+				"startOver"
+			],
+			[
+				"initia",
+				"initialY"
+			],
+			[
+				"e",
+				"enemy"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"new",
+				"newRow"
+			],
+			[
+				"wel",
+				"welcomeMessage"
+			],
+			[
+				"bio",
+				"biopic"
+			],
+			[
+				"formattedlo",
+				"formattedlocation"
+			],
+			[
+				"formattedt",
+				"formattedtwitter"
+			],
+			[
+				"cont",
+				"contacts"
+			],
+			[
+				"displ",
+				"displayMap"
+			],
+			[
+				"displa",
+				"displayName"
+			],
+			[
+				"dis",
+				"display"
+			],
+			[
+				"display",
+				"displayWork"
+			],
+			[
+				"ed",
+				"education"
+			],
+			[
+				"HTMLsc",
+				"HTMLschoolDates"
+			],
+			[
+				"formatted",
+				"formattedDates"
+			],
+			[
+				"form",
+				"formattedMajor"
+			],
+			[
+				"forma",
+				"formattedName"
+			],
+			[
+				"educat",
+				"education-entry"
+			],
+			[
+				"sch",
+				"school"
+			],
+			[
+				"sc",
+				"schools"
+			],
+			[
+				"project",
+				"project"
+			],
+			[
+				"proje",
+				"projects"
+			],
+			[
+				"HTMLprojectd",
+				"HTMLprojectDescription"
+			],
+			[
+				"formattedDe",
+				"formattedDescription"
+			],
+			[
+				"proj",
+				"projects"
+			],
+			[
+				"las",
+				"lastName"
+			],
+			[
+				"to",
+				"toUpperCase"
+			],
+			[
+				"log",
+				"logClicks"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "js/players.js",
+			"settings":
+			{
+				"buffer_size": 5615,
+				"line_ending": "Unix",
+				"name": "//Player types"
+			}
+		},
+		{
+			"file": "js/engine.js",
+			"settings":
+			{
+				"buffer_size": 7740,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/globals.js",
+			"settings":
+			{
+				"buffer_size": 3355,
+				"line_ending": "Unix",
+				"name": "//global variables for game board, etc."
+			}
+		},
+		{
+			"file": "js/goodies.js",
+			"settings":
+			{
+				"buffer_size": 1817,
+				"line_ending": "Unix",
+				"name": "// goodies"
+			}
+		},
+		{
+			"file": "js/enemies.js",
+			"settings":
+			{
+				"buffer_size": 5177,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/interactions.js",
+			"settings":
+			{
+				"buffer_size": 3009,
+				"line_ending": "Unix",
+				"name": "// Interactions"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1250,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/style.css",
+			"settings":
+			{
+				"buffer_size": 206,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/resources.js",
+			"settings":
+			{
+				"buffer_size": 3940,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/app.js",
+			"settings":
+			{
+				"buffer_size": 2592,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bcupham/Dropbox/webfiles/udacity/race_to_whitehouse/js/setup.js",
+		"/Users/bcupham/Dropbox/webfiles/udacity/race_to_whitehouse/js/resources.js",
+		"/Users/bcupham/Dropbox/webfiles/udacity/race_to_whitehouse/js/app.js",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_3/race_to_whitehouse.txt",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_3/.gitignore",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_2/js/helper.js",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_2/js/resumeBuilder.js",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_2/index.html",
+		"/Users/bcupham/Dropbox/webfiles/udacity/frontend-nanodegree-resume/js/resumeBuilder.js",
+		"/Users/bcupham/Dropbox/webfiles/udacity/frontend-nanodegree-resume/js/helper.js",
+		"/Users/bcupham/Dropbox/webfiles/udacity/frontend-nanodegree-resume/index.html",
+		"/Users/bcupham/Dropbox/webfiles/udacity/frontend-nanodegree-resume/README.md",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/css/style.css",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/js/global.js",
+		"/Users/bcupham/.bash_profile",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/index.html",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/.git/MERGE_MSG",
+		"/Users/bcupham/.git-completion.bash",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/images/b-oval-large.png",
+		"/Users/bcupham/Dropbox/webfiles/portfolio_website/index.html",
+		"/Users/bcupham/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/test1.txt",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/filetodelete1.txt",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/filetodelete2.txt",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/.git/COMMIT_EDITMSG",
+		"/Users/bcupham/Dropbox/webfiles/udacity/FE_Nanodegree_Project_1/style.css",
+		"/css",
+		"/Users/bcupham/Downloads/Website Email for Previous Performers .html",
+		"/Users/bcupham/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/bcupham/Documents/explore_california/index.html",
+		"/Users/bcupham/Documents/explore_california/tours/tour_detail_bigsur.html",
+		"/Users/bcupham/Documents/explore_california/tours/tour_detail_backpack.html",
+		"/Users/bcupham/Documents/explore_california/resources/faq.html",
+		"/Users/bcupham/Documents/explore_california/tours/tour_detail_backpack_cal.html",
+		"/Users/bcupham/Documents/explore_california/tours.html",
+		"/Users/bcupham/Documents/explore_california/support.html",
+		"/Users/bcupham/Documents/explore_california/resources.html",
+		"/Users/bcupham/Documents/explore_california/mission.html",
+		"/Users/bcupham/Documents/explore_california/.git/COMMIT_EDITMSG",
+		"/Users/bcupham/Documents/explore_california/contact.html",
+		"/Users/bcupham/Documents/explore_california/explorers.html",
+		"/Users/bcupham/Documents/first_git_project/This is a file to delete2.txt",
+		"/Users/bcupham/Documents/first_git_project/.git/COMMIT_EDITMSG",
+		"/Users/bcupham/second_file.txt",
+		"/Users/bcupham/third_file.txt",
+		"/Users/bcupham/first_file.txt"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"resumebuilder.js",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"initialX",
+			"initialY",
+			"schools",
+			"display",
+			"'",
+			"'major'",
+			"' ",
+			"'degree'",
+			"'city'",
+			"'name'",
+			"Screenwriting",
+			"Front",
+			"Nanodegree",
+			"git-prompt",
+			"backpack_cal.html",
+			"backpack.html",
+			"4315"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"\"",
+			"backpack_cal.html",
+			"4310"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 6,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "js/players.js",
+					"settings":
+					{
+						"buffer_size": 5615,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4333,
+								4333
+							]
+						],
+						"settings":
+						{
+							"auto_name": "//Player types",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1820.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "js/engine.js",
+					"settings":
+					{
+						"buffer_size": 7740,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5998,
+								5998
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2421.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/globals.js",
+					"settings":
+					{
+						"buffer_size": 3355,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2674,
+								2674
+							]
+						],
+						"settings":
+						{
+							"auto_name": "//global variables for game board, etc.",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "js/goodies.js",
+					"settings":
+					{
+						"buffer_size": 1817,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1815,
+								1815
+							]
+						],
+						"settings":
+						{
+							"auto_name": "// goodies",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 680.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "js/enemies.js",
+					"settings":
+					{
+						"buffer_size": 5177,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								173,
+								173
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 201.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "js/interactions.js",
+					"settings":
+					{
+						"buffer_size": 3009,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2093,
+								2093
+							]
+						],
+						"settings":
+						{
+							"auto_name": "// Interactions",
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 211.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1250,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "css/style.css",
+					"settings":
+					{
+						"buffer_size": 206,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								205,
+								205
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "js/resources.js",
+					"settings":
+					{
+						"buffer_size": 3940,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								67,
+								67
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "js/app.js",
+					"settings":
+					{
+						"buffer_size": 2592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2016,
+								2016
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 546.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/bcupham/Dropbox/webfiles/udacity/frontend-nanodegree-resume/udacity-frontend-resume.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 289.0,
+	"status_bar_visible": true
+}
