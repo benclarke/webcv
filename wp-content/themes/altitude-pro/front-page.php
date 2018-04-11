@@ -63,10 +63,10 @@ remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
 remove_action( 'genesis_loop', 'genesis_do_loop' );
 
 //* Add portfolio title and header text
-add_action( 'genesis_loop', 'ben_portfolio_header' );
+//add_action( 'genesis_loop', 'ben_portfolio_header' );
 
 //* Add portfolio widget (circles)
-add_action( 'genesis_loop', 'ben_portfolio_widget' );
+//add_action( 'genesis_loop', 'ben_portfolio_widget' );
 
 //* Add the header again after the grid widget, and turn it upside down
 // add_action( 'genesis_after_loop', 'ben_portfolio_header_reversed' );
