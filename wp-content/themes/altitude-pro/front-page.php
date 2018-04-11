@@ -88,15 +88,11 @@ function ben_portfolio_bg() {
 function ben_portfolio_header() {
 	echo '<h1 class="portfolio-title">Ben Upham</h1>';
 	echo '<p class="portfolio-header">
-	<em class="dark">...I’d like to explain:</em> YOU HAVE TO BE CRAZY to keep up with the digital flood, so we must all be crazy.
-	That&#x02019;s ok. <em class="dark" >I&#x02019;m having fun.</em> What about you?
-	<span class="dark ultrabolditalic">I solve problems with web technology.</span>
-	I manage digital properties, products and campaigns.	I build with code. I design with the user in mind.
-	I tell stories in many mediums. Some true. <span class="dark bold">How can I be of service?</span>
+	<span class="dark ultrabolditalic">I build with ones, zeroes, and most especially, with people.</span>
+	<span class="dark bold">How can I be of service?</span>
 	You can email me at <a href="mailto:bcupham@gmail.com" class="dark bolditalic">BCUPHAM@&shy;GMAIL&shy;.COM</a>
 	and link me in at <a href="http://www.linkedin.com/in/benupham" target="_blank" class="dark bolditalic">in/benupham</a>.
 	</p>';
-	echo '<h3 class="work-stories">WORK STORIES</h3>';
 }
 
 function ben_portfolio_header_reversed() {
