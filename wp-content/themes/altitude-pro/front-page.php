@@ -72,7 +72,7 @@ add_action( 'genesis_loop', 'ben_portfolio_header' );
 // add_action( 'genesis_after_loop', 'ben_portfolio_header_reversed' );
 
 // Add footer
-add_action('genesis_footer', 'ben_portfolio_footer');
+//add_action('genesis_footer', 'ben_portfolio_footer');
 
 
 function ben_portfolio_bg() {
