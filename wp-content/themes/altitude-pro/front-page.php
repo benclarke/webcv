@@ -63,7 +63,7 @@ remove_action( 'genesis_before_loop', 'genesis_do_breadcrumbs' );
 remove_action( 'genesis_loop', 'genesis_do_loop' );
 
 //* Add portfolio title and header text
-//add_action( 'genesis_loop', 'ben_portfolio_header' );
+add_action( 'genesis_loop', 'ben_portfolio_header' );
 
 //* Add portfolio widget (circles)
 //add_action( 'genesis_loop', 'ben_portfolio_widget' );
