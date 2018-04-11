@@ -92,6 +92,7 @@ function ben_portfolio_header() {
 	<span class="dark bold">How can I be of service?</span>
 	You can email me at <a href="mailto:bcupham@gmail.com" class="dark bolditalic">BCUPHAM@&shy;GMAIL&shy;.COM</a>
 	and link me in at <a href="http://www.linkedin.com/in/benupham" target="_blank" class="dark bolditalic">in/benupham</a>.
+	 Thank you!
 	</p>';
 }
 
