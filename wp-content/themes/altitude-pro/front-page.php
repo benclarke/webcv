@@ -16,6 +16,7 @@ function altitude_add_body_class( $classes ) {
 
 }
 
+
 add_action( 'wp_enqueue_scripts', 'ben_portfolio_scripts' );
 function ben_portfolio_scripts() {
 
